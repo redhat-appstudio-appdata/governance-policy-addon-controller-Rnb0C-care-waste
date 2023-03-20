@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: governance-policy-addon-controller-ocyz
+  namespace: red-hat-acm-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:e6864fb3754373cb03145c34b46ff6cd2ba3349b814e4cbc1ff2b7e7f88b4ef3
+        name: container-image
+        resources: {}
+status: {}
