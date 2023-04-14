@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: governance-policy-addon-controller-ocyz
     app.kubernetes.io/part-of: governance-policy-addon-controller
-  name: governance-policy-addon-cy5wl
+  name: governance-policy-addon-cj5rk
   namespace: red-hat-acm-tenant
 spec:
   port:
