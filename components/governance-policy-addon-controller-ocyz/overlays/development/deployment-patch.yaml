@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   name: governance-policy-addon-controller-ocyz
-  namespace: red-hat-acm-tenant
 spec:
   replicas: 1
   selector: {}
