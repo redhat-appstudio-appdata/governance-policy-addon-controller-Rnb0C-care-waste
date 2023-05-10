@@ -9,7 +9,6 @@ metadata:
     app.kubernetes.io/name: governance-policy-addon-controller-ocyz
     app.kubernetes.io/part-of: governance-policy-addon-controller
   name: governance-policy-addon-controller-ocyz
-  namespace: red-hat-acm-tenant
 spec:
   ports:
   - port: 8080

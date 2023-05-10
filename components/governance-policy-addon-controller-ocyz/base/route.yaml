@@ -8,8 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: governance-policy-addon-controller-ocyz
     app.kubernetes.io/part-of: governance-policy-addon-controller
-  name: governance-policy-addon-cctxm
-  namespace: red-hat-acm-tenant
+  name: governance-policy-addon-cssoo
 spec:
   port:
     targetPort: 8080
