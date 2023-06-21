@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: governance-policy-addon-controller-ocyz
     app.kubernetes.io/part-of: governance-policy-addon-controller
-  name: governance-policy-addon-cxiof
+  name: governance-policy-addon-cl5kw
 spec:
   port:
     targetPort: 8080
